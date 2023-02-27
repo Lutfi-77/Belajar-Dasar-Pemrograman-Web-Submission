@@ -304,6 +304,11 @@ article:nth-child(3) .card .place-article {
   text-align: center;
 }
 
+.alamat {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
 footer {
   background-color: #ff4c15;
   color: white;
@@ -348,13 +353,13 @@ footer {
     background-color: black;
     flex-direction: column;
     position: absolute;
-    transition: 1s ease-in-out;
+    transition: 0.5s ease-in-out;
     gap: 20px;
   }
 
   .nav-link-open {
     right: 0;
-    transition: 1s ease-in-out;
+    transition: 0.5s ease-in-out;
   }
 
   .hero-text {
